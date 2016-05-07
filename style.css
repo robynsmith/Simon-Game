@@ -15,6 +15,22 @@
     opacity: .5;
 }
 
+.green-button {
+    background-color: green;
+}
+
+.red-button {
+    background-color: red;
+}
+
+.yellow-button {
+    background-color: yellow;
+}
+
+.blue-button {
+    background-color: blue;
+}
+
 .top-left {
     border-top-left-radius:100%;
 }
