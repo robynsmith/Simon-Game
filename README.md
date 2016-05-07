@@ -1,5 +1,8 @@
 # Simon-Game
 
+You can play it on GitHub Pages here:
+https://www.robynsmith.github.io/Simon-Game
+
 This project is inspired by the FCC project here:
 
 Build a Simon Game | Free Code Camp
