@@ -1,1 +1,28 @@
-<h1>Hello World!</h1>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Simon Game</h1>
+        <button type="button" class="btn btn-primary" value="start">Start</button>
+        <div class="board container text-center">
+          <div class="row">
+            <div class="col-xs-6 game-button top-left" value="top-left"></div>
+            <div class="col-xs-6 game-button top-right" value="top-right"></div>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 game-button bottom-left" value="bottom-left"></div>
+            <div class="col-xs-6 game-button bottom-right" value="bottom-right"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

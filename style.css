@@ -1,0 +1,31 @@
+.game-button {
+    display: block;
+    width: 12.5em;
+    height: 12.5em;
+    background-color: gray;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.game-button:hover { 
+    cursor: pointer;
+    opacity: .5;
+}
+
+.top-left {
+    border-top-left-radius:100%;
+}
+
+.top-right {
+    border-top-right-radius:100%;
+
+}
+
+.bottom-left {
+    border-bottom-left-radius:100%;
+
+}
+
+.bottom-right {
+    border-bottom-right-radius:100%;
+}
